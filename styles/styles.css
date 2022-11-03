@@ -1,0 +1,14 @@
+@import url("header.css");
+
+:root{
+    --fonte: "Inter";
+    --vinho:#8E2424;
+    --cinza-escuro:#101828;
+    --cinza-medio:#3a404e;
+    --cinza-claro:#667085;
+    --branco:#FFFFFF;
+}
+body{
+    font-size: 16px;
+    font-family: var(--fonte);
+}
