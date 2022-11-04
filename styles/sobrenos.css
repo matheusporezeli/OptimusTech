@@ -1,0 +1,34 @@
+.container-sobrenos{
+    text-align: center;
+    margin: 6em auto;
+}
+.sobrenos__titulo{
+    font-weight: 600;
+    color: var(--vinho);
+    padding-bottom: 1.5em;
+}
+.sobrenos__descricao{
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--cinza-escuro);
+    padding-bottom: 1em;
+}
+.sobrenos__paragrafo{
+    padding: 0 25%;
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--cinza-claro);
+}
+
+@media screen and (max-width: 1024px) {
+    .container-sobrenos{
+        margin: 3em auto;
+    }
+    .sobrenos__descricao{
+        font-size: 28px;
+    }
+    .sobrenos__paragrafo{
+        font-size: 16px;
+        padding: 0 10%;
+    }
+}

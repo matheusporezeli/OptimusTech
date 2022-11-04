@@ -15,14 +15,12 @@
     font-size: 18px;
     color: var(--cinza-medio);
 }
-.lista-menu{
-    align-items: center;
+.cabecalho-lista{
     display: flex;
     width: 60%;
     gap: 2em;
-    margin-left: 6em;
 }
-.lista-menu__link{
+.lista__item-link{
     font-weight: 500;
     text-decoration: none;
     color: var(--cinza-claro);
@@ -44,7 +42,7 @@
     border-radius: 5px;
     background-color:var(--vinho);
 }
-.cabecalho-botao{
+.cabecalho-botao, .lista-menu{
     display: none;
 }
 
@@ -54,11 +52,11 @@
         margin: 1.5em;
         font-size: 14px;
     }
+    .cabecalho-lista{
+        display: none;
+    }
     .cabecalho-opcoes{
         gap: 0;
-    }
-    .cabecalho-botao ~ .lista-menu{
-        display: none;
     }
     .cabecalho-botao:checked ~ .lista-menu{
         display: block;
@@ -67,7 +65,6 @@
         width: auto;
         position: absolute;
         top: 100%;
-        margin-left: 0;
     }
     .lista-menu__item{
         padding: 0.5em;

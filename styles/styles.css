@@ -1,8 +1,10 @@
 @import url("header.css");
+@import url("sobrenos.css");
 
 :root{
     --fonte: "Inter";
     --vinho:#8E2424;
+    --vinho-escuro: #781313;
     --cinza-escuro:#101828;
     --cinza-medio:#3a404e;
     --cinza-claro:#667085;
