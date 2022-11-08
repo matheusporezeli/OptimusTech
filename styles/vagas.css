@@ -1,21 +1,26 @@
 .container-vagas{
     text-align: center;
-    padding: 6em 2em;
+    padding: 4em 2em;
 }
 .container__imagem{
-    width: 80%;
+    width: 95%;
     margin: 4em 0;
 }
 .vagas__titulo{
     display: inline-block;
     padding: 0.5em 1em;
+    margin-bottom: 1em;
     border-radius: 16px;
     background-size: contain;
     background-color: var(--vermeho-claro);
 }
+.descricao__vaga{
+    font-size: 36px;
+}
 
 @media screen and (max-width: 1024px) {
     .container-vagas{
+        margin-top: 2em;
         padding: 1em;
     }
     .container__imagem{

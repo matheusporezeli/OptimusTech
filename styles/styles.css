@@ -1,7 +1,9 @@
 @import url("header.css");
-@import url("sobrenos.css");
+@import url("banner.css");
 @import url("metricas.css");
 @import url("vagas.css");
+@import url("topicos.css");
+@import url("depoimento.css");
 
 :root{
     --fonte: "Inter";
@@ -11,7 +13,9 @@
     --cinza-medio:#3a404e;
     --cinza-claro:#667085;
     --branco:#FFFFFF;
+    --cinza-borda: #EAECF0;
     --vermeho-claro:  rgba(142, 36, 36, 0.05);
+    --vermelho-medio: rgba(196, 25, 25, 0.03);
 }
 body{
     font-size: 16px;

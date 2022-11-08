@@ -1,0 +1,34 @@
+.container-banner{
+    text-align: center;
+    margin: 6em auto;
+}
+.container__titulo{
+    font-weight: 600;
+    color: var(--vinho);
+    padding-bottom: 1.5em;
+}
+.container__descricao{
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--cinza-escuro);
+    padding-bottom: 1em;
+}
+.container__paragrafo{
+    padding: 0 25%;
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--cinza-claro);
+}
+
+@media screen and (max-width: 1024px) {
+    .container-banner{
+        margin: 3em auto;
+    }
+    .container__descricao{
+        font-size: 36px;
+    }
+    .container__paragrafo{
+        font-size: 16px;
+        padding: 0 10%;
+    }
+}

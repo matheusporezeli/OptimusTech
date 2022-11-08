@@ -23,7 +23,7 @@
     color: var(--cinza-claro);
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1024px) {
     .container-metricas{
         gap: 1em;
         margin: 2em;

@@ -1,0 +1,35 @@
+.container-formulario{
+    display: flex;
+    flex-direction: column;
+    margin: 0 25% 6em;
+    gap: 2em;
+}
+.vaga__area{
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--cinza-escuro);
+    padding-top: 2em;
+}
+.formulario__vaga{
+    padding: 2em;
+    border: 1px solid var(--cinza-borda);
+}
+.vaga__titulo{
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--cinza-escuro);
+}
+.vaga__informacoes{
+    display: flex;
+    gap: 1.5em;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--cinza-claro);
+    padding-top: 2em;
+}
+
+@media screen and (max-width: 500px) {
+    .container-formulario{
+        margin: 0 15% 6em;
+    }
+}
