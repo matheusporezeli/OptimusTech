@@ -1,0 +1,44 @@
+.container-metricas{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin: 6em;
+}
+.metricas__colunas{
+    width: 25%;
+}
+.metricas__valor{
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--vinho);
+}
+.metricas__titulo{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cinza-escuro);
+    margin: 1em 0 0.5em 0;
+}
+.metricas__descricao{
+    font-weight: 400;
+    color: var(--cinza-claro);
+}
+
+@media screen and (max-width: 900px) {
+    .container-metricas{
+        gap: 1em;
+        margin: 2em;
+    }
+    .metricas__valor{
+        font-size: 48px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container-metricas{
+        margin: 1em;
+        flex-wrap: wrap;
+    }
+    .container-metricas > div{
+        flex: 0.5 1 150px;
+    }
+}

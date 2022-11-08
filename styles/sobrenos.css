@@ -1,19 +1,19 @@
-.container-sobrenos{
+.container-banner{
     text-align: center;
     margin: 6em auto;
 }
-.sobrenos__titulo{
+.container__titulo{
     font-weight: 600;
     color: var(--vinho);
     padding-bottom: 1.5em;
 }
-.sobrenos__descricao{
+.container__descricao{
     font-size: 48px;
     font-weight: 600;
     color: var(--cinza-escuro);
     padding-bottom: 1em;
 }
-.sobrenos__paragrafo{
+.container__paragrafo{
     padding: 0 25%;
     font-weight: 400;
     font-size: 20px;
@@ -21,13 +21,13 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .container-sobrenos{
+    .container-banner{
         margin: 3em auto;
     }
-    .sobrenos__descricao{
+    .container__descricao{
         font-size: 28px;
     }
-    .sobrenos__paragrafo{
+    .container__paragrafo{
         font-size: 16px;
         padding: 0 10%;
     }
