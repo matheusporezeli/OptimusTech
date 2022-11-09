@@ -14,8 +14,11 @@
     background-size: contain;
     background-color: var(--vermeho-claro);
 }
-.descricao__vaga{
+.descricao__paragrafo{
     font-size: 36px;
+}
+.container__paragrafo{
+    font-size: 20px;
 }
 
 @media screen and (max-width: 1024px) {

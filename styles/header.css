@@ -38,7 +38,7 @@
     text-decoration: none;
     padding: 0.5em 1em;
 }
-.cabecalho-opcoes__cadastrar{
+.opcoes__cadastrar{
     color: var(--branco);
     border: 1px solid var(--vinho);
     border-radius: 5px;

@@ -4,6 +4,7 @@
 @import url("vagas.css");
 @import url("topicos.css");
 @import url("depoimento.css");
+@import url("rodape.css");
 
 :root{
     --fonte: "Inter";
@@ -12,10 +13,14 @@
     --cinza-escuro:#101828;
     --cinza-medio:#3a404e;
     --cinza-claro:#667085;
+    --cinza-input: #D0D5DD;
     --branco:#FFFFFF;
     --cinza-borda: #EAECF0;
+    --cinza-rodape: #F9FAFB;
+    --cinza-cpr: #98A2B3;
     --vermeho-claro:  rgba(142, 36, 36, 0.05);
     --vermelho-medio: rgba(196, 25, 25, 0.03);
+    --sombra-email: rgba(16, 24, 40, 0.05);
 }
 body{
     font-size: 16px;
