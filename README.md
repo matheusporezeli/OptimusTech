@@ -4,4 +4,4 @@ https://matheusporezeli.github.io/OptimusTech/
 
 Projeto original: https://l1nq.com/OptimusTech
 
-#7DaysOfCode
+<img src="https://i.imgur.com/YSVclw0.png" width="350">
