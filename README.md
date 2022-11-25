@@ -4,7 +4,7 @@ Projeto desenvolvido durante o  #7DaysOfCode, criação de um site de recrutamen
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
-| :sparkles: Nome        | **Titulo do meu projeto**
+| :sparkles: Nome        | **OptimusTech**
 | :label: Tecnologias | HTML E CSS
 | :rocket: URL         | https://matheusporezeli.github.io/OptimusTech/
 | :fire: Desafio     | https://7daysofcode.io/matricula/html-css
